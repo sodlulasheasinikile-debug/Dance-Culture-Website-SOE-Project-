@@ -3,7 +3,7 @@ A dance culture website  for a Software Enginnering 3 school group project, mean
 
 ## Authors
 Developed by **M.S.KAMS**:
-* Kamohelo Truce-hash@github.com
+* Kamohelo 
 * Sibusiso 
 * Musa 
 * Siphosethu
