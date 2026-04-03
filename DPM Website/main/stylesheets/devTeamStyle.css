@@ -1,13 +1,13 @@
 
 
 body {
-    background: #1a1a11;
+    background: whitesmoke;
     background-image: url(assets/background.jpg);
     background-size: cover;
     background-position: center;            /* centers the image */
     background-repeat: no-repeat;           /* prevents tiling */
     background-attachment: fixed;
-    font-family: system-ui, sans-serif;
+    font-family: 'Roboto Slab', serif;
     overflow-x: hidden;
 }
 

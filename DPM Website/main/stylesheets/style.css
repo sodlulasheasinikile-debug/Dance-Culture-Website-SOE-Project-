@@ -4,6 +4,10 @@ header {
     border-radius: 5px;
 }
 
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
 .navbar ul {
     list-style: none;
     display: flex;
@@ -96,3 +100,4 @@ header {
 #media h3 {
     text-align: center;
 }
+
