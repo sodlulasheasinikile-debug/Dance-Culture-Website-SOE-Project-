@@ -7,11 +7,11 @@ header {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-image: url('../assets/download\ \(1\).jpeg');
+    background-image: url('../assets/nicebackground.jpeg');
     background-size:auto;
     background-position: center;
     background-attachment: fixed;
-    color:black;
+    color:whitesmoke;
       
 }
 
