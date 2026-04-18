@@ -140,3 +140,42 @@ button.dropdown-toggle{
 #media img{
     align-items: center;
 }
+
+.overview-link-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.overview-link-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 220px;
+    min-height: 100px;
+    margin: 10px;
+    padding: 0;
+    background-color: #FF5F1F;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.overview-link-item:hover{
+    transform: translateY(-3px);
+    background-color: #ff7a44;
+}
+
+.overview-link-item a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 20px 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
