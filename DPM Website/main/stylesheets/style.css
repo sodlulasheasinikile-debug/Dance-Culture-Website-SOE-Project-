@@ -91,7 +91,7 @@ button.dropdown-toggle{
 }
 
 /*Main content section*/
-#intro h2 {
+#introduction h2 {
     text-align: center;
 }
 
@@ -100,6 +100,10 @@ button.dropdown-toggle{
 }
 
 #purpose h2 {
+    text-align: center;
+}
+
+#media h2 {
     text-align: center;
 }
 
@@ -115,9 +119,6 @@ button.dropdown-toggle{
     text-align: center;
 }
 
-#media h3 {
-    text-align: center;
-}
 
 /*New stuff*/
 #transition-overlay {
