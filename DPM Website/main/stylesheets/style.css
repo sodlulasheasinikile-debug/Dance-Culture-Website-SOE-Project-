@@ -1,6 +1,5 @@
 header {
     background: linear-gradient(135deg, #1a1a1a, #1a1a1a);
- 
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
@@ -8,13 +7,12 @@ header {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-image: url('../assets/blackwell.jpeg');
-    background-image: url("../assets/Team/background.jpeg");
-    background-size:contain;
+    background-image: url('../assets/download\ \(1\).jpeg');
+    background-size:auto;
     background-position: center;
-    color:white;
-   
-   
+    background-attachment: fixed;
+    color:black;
+      
 }
 
 
