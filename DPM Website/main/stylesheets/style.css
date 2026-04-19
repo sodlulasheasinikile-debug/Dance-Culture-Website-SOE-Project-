@@ -194,3 +194,16 @@ video {
     text-decoration: none;
     font-weight: 600;
 }
+
+.dance-card {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 12px;
+    color: white;
+}
+
+.dance-card h2 {
+    color: orange;
+}

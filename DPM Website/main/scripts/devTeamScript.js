@@ -13,16 +13,16 @@ const teamMembers = [
         role: "Full-Stack Developer",
         bio: "Focused on building excellence and creating opportunities for future generations",
         image: "assets/Team/Sibusiso.jpeg",
-        fullBio: "Sibusiso specializes in high-performance backend systems. Good in C#, Dart, HTML/CSS, JavaScript and mobile app development using flutter. Passionate about clean code, scalability, and guiding junior developers.",
+        fullBio: "Sibusiso specializes in high-performance backend systems. Good in C#, Dart, HTML/CSS, JavaScript and mobile app development using flutter. Passionate about building scalable and efficient applications that solve real-world problems.",
         github: "https://github.com/blessingmikay19-cyber",
         linkedin: "https://www.linkedin.com/in/sibusiso-lukhele-a96494404/"
     },
     {
         name: "Asinikile Sodlulashe",
         role: "Frontend Developer",
-        bio: "Say what you're good at here.",
+        bio: "Passionate about building responsive and user-friendly web interfaces.",
         image: "assets/Team/Cruz.jpeg",
-        fullBio: "Asinikile enjoys working across the entire stack. Strong advocate for developer experience and building tools that make teams more productive.",
+        fullBio: "Asinikile is a frontend developer focused on creating clean, interactive, and accessible web experiences using modern technologies like HTML, CSS, and JavaScript. Enjoys turning ideas into visually appealing and functional designs.",
         github: "https://github.com/sodlulasheasinikile-debug",
         linkedin: "#"
     },
