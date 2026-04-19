@@ -7,7 +7,7 @@ header {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-image: url('../assets/nicebackground.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.3)),url('../assets/nicebackground.jpeg');
     background-size:auto;
     background-position: center;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ body{
       
 }
 
-
+/*dances button style*/
 button.dropdown-toggle{   
     background: none;
     border: none;
@@ -26,6 +26,7 @@ button.dropdown-toggle{
    
 }
 
+/*Navigation bar styles*/
 .navbar ul {
     list-style: none;
     display: flex;
@@ -91,7 +92,7 @@ button.dropdown-toggle{
 }
 
 /*Main content section*/
-#intro h2 {
+#introduction h2 {
     text-align: center;
 }
 
@@ -100,6 +101,10 @@ button.dropdown-toggle{
 }
 
 #purpose h2 {
+    text-align: center;
+}
+
+#media h2 {
     text-align: center;
 }
 
@@ -115,30 +120,8 @@ button.dropdown-toggle{
     text-align: center;
 }
 
-#media h3 {
-    text-align: center;
-}
-
-/*New stuff*/
-#transition-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #0a0a0a; /* match your site */
-  opacity: 1;
-  pointer-events: none;
-  transition: opacity 0.4s ease;
-  z-index: 9999;
-}
-
-#transition-overlay.hidden {
-  opacity: 0;
-}
-
 #media img{
-    align-items: center;
+    border-radius: 5px;
 }
 
 .video-section {
@@ -156,6 +139,8 @@ video {
     display: block;
     margin: 0 auto;
 }
+
+/*styles dance tabs in the home*/
 .overview-link-list{
     display: flex;
     justify-content: center;
@@ -178,6 +163,7 @@ video {
     border-radius: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-sizing: border-box;
+    opacity: 0.9;
 }
 
 .overview-link-item:hover{
@@ -207,3 +193,28 @@ video {
 .dance-card h2 {
     color: orange;
 }
+/*Intro loader styles*/
+.intro-loader {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+.name{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 5px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s;
+}
+
