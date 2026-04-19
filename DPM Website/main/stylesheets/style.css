@@ -7,7 +7,7 @@ header {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-image: url('../assets/nicebackground.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.3)),url('../assets/nicebackground.jpeg');
     background-size:auto;
     background-position: center;
     background-attachment: fixed;
@@ -205,3 +205,4 @@ video {
     transform: translateY(40px);
     transition: 1s;
 }
+
