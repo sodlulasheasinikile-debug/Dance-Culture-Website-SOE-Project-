@@ -15,7 +15,7 @@ body{
       
 }
 
-
+/*dances button style*/
 button.dropdown-toggle{   
     background: none;
     border: none;
@@ -26,6 +26,7 @@ button.dropdown-toggle{
    
 }
 
+/*Navigation bar styles*/
 .navbar ul {
     list-style: none;
     display: flex;
@@ -119,25 +120,6 @@ button.dropdown-toggle{
     text-align: center;
 }
 
-
-/*New stuff*/
-#transition-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #0a0a0a; /* match your site */
-  opacity: 1;
-  pointer-events: none;
-  transition: opacity 0.4s ease;
-  z-index: 9999;
-}
-
-#transition-overlay.hidden {
-  opacity: 0;
-}
-
 #media img{
     border-radius: 5px;
 }
@@ -157,6 +139,8 @@ video {
     display: block;
     margin: 0 auto;
 }
+
+/*styles dance tabs in the home*/
 .overview-link-list{
     display: flex;
     justify-content: center;
@@ -205,12 +189,12 @@ video {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .name{
